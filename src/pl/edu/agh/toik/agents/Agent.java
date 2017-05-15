@@ -18,21 +18,35 @@ public class Agent {
     private AgentObservator agentObservaator;
     private Properties properties;
 
-    public  ArrayList       getNeighbours() {
+    public  ArrayList getNeighbours() {
         return neighbours;
-    }public void            setNeighbours(ArrayList neighbours) {
+    }
+
+    public void setNeighbours(ArrayList neighbours) {
         this.neighbours = neighbours;
-    }public String          getName() {
+    }
+
+    public String getName() {
         return name;
-    }public void            setName(String name) {
+    }
+
+    public void setName(String name) {
         this.name = name;
-    }public AgentObservator getAgentObservaator() {
+    }
+
+    public AgentObservator getAgentObservator() {
         return agentObservaator;
-    }public void            setAgentObservaator(AgentObservator agentObservaator) {
+    }
+
+    public void setAgentObservator(AgentObservator agentObservaator) {
         this.agentObservaator = agentObservaator;
-    }public Properties      getProperties() {
+    }
+
+    public Properties getProperties() {
         return properties;
-    }public void            setProperties(Properties properties) {
+    }
+
+    public void setProperties(Properties properties) {
         this.properties = properties;
     }
 
